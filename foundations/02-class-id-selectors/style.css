@@ -1,0 +1,18 @@
+.same-text{
+    background-color: pink;
+    font-family: Verdana,DejaVu Sans, Sans-serif;
+}
+#text{
+    color: blue;
+    font-size: 36px;
+}
+.another-class{
+    background-color: pink;
+    font-size: 24px;
+    font-family: Verdana,DejaVu Sans, Sans-serif;
+}
+#more-text{
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
