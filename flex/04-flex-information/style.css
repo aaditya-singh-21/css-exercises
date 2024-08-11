@@ -7,9 +7,25 @@ img {
   height: 100px;
 }
 
+.content{
+
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.fruit{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  flex-wrap: wrap;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin: 50px;
 }
 
 /* do not edit this footer */
