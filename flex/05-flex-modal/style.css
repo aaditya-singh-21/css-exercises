@@ -4,6 +4,22 @@ html, body {
   height: 100%;
 }
 
+
+/* added text */
+.text{
+  margin-bottom: 15px;
+}
+
+/* Added header part */
+.header{
+  display: flex;
+  font-weight: 750;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-bottom: 8px;
+  
+}
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -16,10 +32,14 @@ body {
 }
 
 .modal {
+  /* added display flex */
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px; /*Added padding and gap*/
+  gap: 15px;
 }
 
 .icon {
@@ -33,6 +53,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* solution */
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -60,10 +82,13 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  
+  
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  
 }
